@@ -4,6 +4,15 @@ public class Model {
 
 	private int id;
 	private String name;
+	private int number;
+
+	public int getNumber() {
+		return number;
+	}
+
+	public void setNumber(int number) {
+		this.number = number;
+	}
 
 	public int getId() {
 		return id;
